@@ -22,7 +22,7 @@ First you install the treys library, and then u run the program and use it via t
 It first asks you the number of players, then it asks you your hole cards which you must enter one by one, the format for entering cards is simply *rank* *suit* (with no space in between)  
 Ranks: 2, 3, 4, 5, 6, 7, 8, 9, T, J, Q, K, A  
 Suits: s, c, d, h  
-I didn't add any error handling for incorrectly inputting the cards so just make sure you capitalize the ranks T > A and write a lowercase suit, and also be careful not to add duplicate cards because I didn't handle that either.  
+I didn't add any error handling for incorrectly inputting the cards so just make sure you capitalize the ranks T - A and write a lowercase suit, and also be careful not to add duplicate cards because I didn't handle that either.  
 At each stage of the game it asks you for more information and gives you your respective odds.  
 **When you enter 1 into the number of players left a new hand begins, and when you enter 0, the program ends.**
 
