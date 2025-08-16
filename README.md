@@ -19,7 +19,7 @@ drawing a card from a deck, evalutating the quality of a hand, removing cards fr
 
 ## **How to Use it**  
 First you install the treys library, and then u run the program and use it via the CLI.  
-It first asks you the number of players, then it asks you your hole cards which you must enter one by one, the format for entering the hole cards is simply *rank* *suit* (with no space in between)  
+It first asks you the number of players, then it asks you your hole cards which you must enter one by one, the format for entering cards is simply *rank* *suit* (with no space in between)  
 Ranks: 2, 3, 4, 5, 6, 7, 8, 9, T, J, Q, K, A  
 Suits: s, c, d, h  
 I didn't add any error handling for incorrectly inputting the cards so just make sure you capitalize the ranks T > A and write a lowercase suit, and also be careful not to add duplicate cards because I didn't handle that either.  
